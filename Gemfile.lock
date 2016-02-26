@@ -128,6 +128,9 @@ GEM
       errbit_plugin
       octokit
     errbit_plugin (0.6.0)
+    errbit_redmine_plugin (0.4.0)
+      errbit_plugin (~> 0)
+      oruen_redmine_client (~> 0)
     erubis (2.7.0)
     execjs (2.6.0)
     fabrication (2.13.2)
@@ -242,6 +245,8 @@ GEM
     parser (2.2.3.0)
       ast (>= 1.1, < 3.0)
     phantomjs (2.1.1.0)
+    oruen_redmine_client (0.0.1)
+      activeresource (>= 2.3.0)
     pjax_rails (0.4.0)
       jquery-rails
       railties (>= 3.2, < 5.0)
@@ -451,6 +456,7 @@ DEPENDENCIES
   email_spec
   errbit_github_plugin
   errbit_plugin
+  errbit_redmine_plugin
   fabrication
   flowdock
   font-awesome-rails
