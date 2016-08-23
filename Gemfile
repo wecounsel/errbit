@@ -29,13 +29,8 @@ gem 'useragent'
 # Please don't update hoptoad_notifier to airbrake.
 # It's for internal use only, and we monkeypatch certain methods
 gem 'hoptoad_notifier', "~> 2.4"
-gem 'draper'
 
-gem 'errbit_plugin'
-gem 'errbit_github_plugin'
 gem 'errbit_redmine_plugin'
-
-gem 'dotenv-rails'
 
 # Notification services
 # ---------------------------------------
