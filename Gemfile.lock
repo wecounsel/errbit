@@ -185,6 +185,9 @@ GEM
       activerecord
       kaminari-core (= 1.0.1)
     kaminari-core (1.0.1)
+    kaminari-mongoid (1.0.1)
+      kaminari-core (~> 1.0)
+      mongoid
     launchy (2.4.3)
       addressable (~> 2.3)
     libv8 (3.16.14.19)
@@ -472,6 +475,7 @@ DEPENDENCIES
   jquery-rails (~> 2.1.4)
   json
   kaminari (>= 0.16.3)
+  kaminari-mongoid
   launchy
   meta_request
   mongoid (= 5.0.2)
