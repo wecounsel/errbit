@@ -18,6 +18,5 @@ config/newrelic.yml
 bundle
 coverage
 *#
-.ruby-version
 .tool-versions
 NOTES
