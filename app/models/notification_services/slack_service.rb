@@ -49,6 +49,7 @@ class NotificationServices::SlackService < NotificationService
   end
 
   def create_notification(problem)
+    return nil if problem.message.to_s =~ /Rack Attack.*throttled/
     HTTParty.post(
       service_url,
       body:    post_payload(problem),
