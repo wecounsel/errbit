@@ -50,6 +50,7 @@ class NotificationServices::SlackService < NotificationService
 
   def create_notification(problem)
     return nil if problem.message.to_s =~ /Rack Attack.*throttled/
+    return nil if problem.message.to_s =~ /Rack Attack.*something suspicious/
     HTTParty.post(
       service_url,
       body:    post_payload(problem),
