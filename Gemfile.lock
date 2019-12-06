@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/startdatelabs/errbit_jira_plugin.git
+  revision: 5f0759ada9208f3746c231a377a47a72568df57f
+  specs:
+    errbit_jira_plugin (0.2.0)
+      errbit_plugin
+      jira-ruby
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -128,9 +136,6 @@ GEM
     errbit_github_plugin (0.3.0)
       errbit_plugin
       octokit
-    errbit_jira_plugin (0.3.0)
-      errbit_plugin
-      jira-ruby
     errbit_plugin (0.6.0)
     erubi (1.7.1)
     erubis (2.7.0)
@@ -488,7 +493,7 @@ DEPENDENCIES
   draper
   email_spec
   errbit_github_plugin
-  errbit_jira_plugin
+  errbit_jira_plugin!
   errbit_plugin
   fabrication
   flowdock
