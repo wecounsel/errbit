@@ -12,7 +12,7 @@ lock '3.11.2'
 set :use_sudo, true
 set :application, 'errbit'
 set :repo_url, 'git@support.wecounsel.com:errbit'
-set :branch, ENV['branch'] || 'master'
+set :branch, ENV['branch'] || ENV['REVISION'] || 'master'
 set :deploy_to, '/var/www/errbit'
 set :keep_releases, 5
 
