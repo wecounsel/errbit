@@ -3,6 +3,8 @@ LABEL maintainer="David Papp <david@ghostmonitor.com>"
 
 WORKDIR /app
 # throw errors if Gemfile has been modified since Gemfile.lock
+RUN apk update && apk add git
+
 RUN echo "gem: --no-document" >> /etc/gemrc \
   && bundle config --global frozen 1 \
   && bundle config --global clean true \
