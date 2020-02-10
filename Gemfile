@@ -27,7 +27,7 @@ gem 'rack-ssl-enforcer', require: false
 gem 'rails_autolink'
 gem 'useragent'
 
-gem 'errbit_jira_plugin', git: 'https://github.com/startdatelabs/errbit_jira_plugin.git'
+gem 'errbit_jira_plugin', git: 'https://github.com/wecounsel/errbit_jira_plugin.git'
 
 # Please don't update hoptoad_notifier to airbrake.
 # It's for internal use only, and we monkeypatch certain methods

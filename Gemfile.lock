@@ -1,10 +1,10 @@
 GIT
-  remote: https://github.com/startdatelabs/errbit_jira_plugin.git
-  revision: 5f0759ada9208f3746c231a377a47a72568df57f
+  remote: https://github.com/wecounsel/errbit_jira_plugin.git
+  revision: e8fd39d4a26cb9f5d3ec5348846fd6f2df3e228d
   specs:
-    errbit_jira_plugin (0.2.0)
+    errbit_jira_plugin (1.1.0)
       errbit_plugin
-      jira-ruby
+      jira-ruby (~> 1.7.1)
 
 GEM
   remote: https://rubygems.org/
